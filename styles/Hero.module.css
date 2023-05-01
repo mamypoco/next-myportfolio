@@ -1,0 +1,38 @@
+.hero {
+   background-image: url("../public/images/enhancedSeattle.jpg");
+   background-position: 50% 50%;
+   background-size: cover;
+   position: relative;
+   background-repeat: no-repeat;
+   display: flex;
+   z-index: 2;
+   height: 100vh;
+   width: 100vw;
+}
+
+.greeting {
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 50%;
+   left: 50%;
+   /* z-index: -1; */
+}
+
+.greeting h1 {
+   font-size: 4rem;
+}
+
+.links ul {
+   display: inline-flex;
+   justify-content: space-between;
+   list-style: none;
+   margin-top: 2rem;
+}
+
+.links li {
+   display: block;
+   margin-right: 3rem;
+   font-size: 2rem;
+}

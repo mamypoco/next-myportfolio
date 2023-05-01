@@ -9,14 +9,19 @@ body {
 .fullpage {
    /* width: 100vw; */
    height: 100vh;
-   background-color: rgb(161, 157, 157);
+   background-color: black;
    display: grid;
    place-items: center;
+   color: white;
 }
 
 .header {
    display: flex;
    align-items: center;
+}
+
+.greeting {
+   margin: 0 2rem;
 }
 
 a {
